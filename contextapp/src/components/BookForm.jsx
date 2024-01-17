@@ -13,10 +13,10 @@ function BookForm() {
     setAuthor("")
   }
   return (
-    <form action="" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <input type="text" placeholder="book title" value={title} onChange={(e) => setTitle(e.target.value)} required/>
       <input type="text" placeholder="book author" value={author} onChange={(e) => setAuthor(e.target.value)} required/>
-      <button onClick={addBook} value="add book">Add Book</button>
+      <input type="submit" value="add book" />
     </form>
   )
 }
