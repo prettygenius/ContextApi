@@ -1,6 +1,6 @@
 # BookListApp
 
-adds new books to booklist using context api including createcontext UseContext, UseState, reducer function, dispatch function, action object, and payload
+Adds new books to booklist using context api including createcontext UseContext, UseState, reducer function, dispatch function, action object, and payload
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
